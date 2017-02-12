@@ -17,7 +17,6 @@ class Spider:
     crawled = set()
     articles = set()
     expression = 'http://www.thehindu.com.*'
-   # expression1 = 'http://www.thehindu.com/.article.'
 
     def __init__(self, project_name, base_url, domain_name):
         Spider.project_name = project_name
