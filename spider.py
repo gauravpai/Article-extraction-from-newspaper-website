@@ -72,8 +72,6 @@ class Spider:
             regex = re.compile(Spider.expression)
             if re.match(regex, url) is not None:
                 Spider.queue.add(url)
-           # regex1 = re.compile(Spider.expression1)
-           # if re.match(regex1 ,url):
                 Spider.articles.add(url)
 
 
