@@ -7,7 +7,7 @@ import time
 
 
 PROJECT_NAME = 'hindu'
-HOMEPAGE = 'http://www.hindustantimes.com'
+HOMEPAGE = 'http://www.thehindu.com'
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
 QUEUE_FILE = PROJECT_NAME + '/queue.txt'
 CRAWLED_FILE = PROJECT_NAME + '/crawled.txt'
