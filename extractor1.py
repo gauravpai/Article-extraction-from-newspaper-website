@@ -13,9 +13,6 @@ f = open('hindu/articles.txt', 'rt')
 
 for line in f:
     print_article(line)
-    print(line)
-
-
 
 
 f.close()
